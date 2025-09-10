@@ -1,0 +1,13 @@
+# Core dependencies for this wrapper
+torch>=1.9.0
+torchvision>=0.10.0
+pyyaml>=5.4.0
+requests>=2.25.0
+
+# Additional dependencies (YOLOv9 will install its own requirements)
+# These are for the wrapper functionality
+numpy>=1.19.0
+Pillow>=8.0.0
+
+# Note: YOLOv9 repository will automatically install its own requirements
+# including: opencv-python, tqdm, matplotlib, seaborn, pandas, etc.
